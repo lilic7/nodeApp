@@ -1,5 +1,5 @@
 {
-  "name": "nodeApp",
+  "name": "nodeUser",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,7 +9,10 @@
   "author": "Lilic",
   "license": "ISC",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.14.1",
     "express": "^4.13.3",
-    "mongoose": "^4.2.9"
+    "mongoose": "^4.2.9",
+    "morgan": "^1.6.1"
   }
 }

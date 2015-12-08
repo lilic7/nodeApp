@@ -1,6 +1,10 @@
 var express = require('express');
 var app = express();
 var path = require('path');
+var mongoose = require('mongooose');
+
+mongoose.connect('mongodb://localhost/nodeApp');
+
 
 app.get('/', function(req, res){
     res.sendFile(path.join(__dirname + '/index.html'));
