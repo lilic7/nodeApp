@@ -1,10 +1,11 @@
 {
-  "name": "nodeUser",
+  "name": "structured",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Lilic",
   "license": "ISC",
@@ -13,7 +14,8 @@
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
     "jsonwebtoken": "^5.4.1",
-    "mongoose": "^4.2.9",
-    "morgan": "^1.6.1"
+    "mongoose": "^4.3.1",
+    "morgan": "^1.6.1",
+    "nodemon": "^1.8.1"
   }
 }

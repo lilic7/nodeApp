@@ -1,3 +1,5 @@
 /node_modules
 /nodeUser/node_modules
+/nodeUser/ean/node_modules
+/structured/node_modules
 .idea
